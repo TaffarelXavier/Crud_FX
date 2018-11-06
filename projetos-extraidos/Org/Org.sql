@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS table_teste(`tab_id` INT NOT NULL AUTO_INCREMENT, `tab_nome` VARCHAR(255), `tab_tab_3` VARCHAR(255), `tab_tab_4` VARCHAR(255), `tab_tab_5` VARCHAR(255), PRIMARY KEY (`tab_id`)) ENGINE = InnoDB;
+CREATE TABLE IF NOT EXISTS pessoa(`pes_id` INT NOT NULL AUTO_INCREMENT, `pes_nome` VARCHAR(255), `pes_pes_3` VARCHAR(255), `pes_pes_4` VARCHAR(255), `pes_pes_5` VARCHAR(255), PRIMARY KEY (`pes_id`)) ENGINE = InnoDB;

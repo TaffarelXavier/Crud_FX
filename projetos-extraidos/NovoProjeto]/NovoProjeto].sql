@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS tabela1(`tab_id` INT NOT NULL AUTO_INCREMENT, `tab_nome` VARCHAR(255), `tab_tab_3` VARCHAR(255), `tab_tab_4` VARCHAR(255), `tab_tab_5` VARCHAR(255), PRIMARY KEY (`tab_id`)) ENGINE = InnoDB;
+CREATE TABLE IF NOT EXISTS tabela2(`tab_id` INT NOT NULL AUTO_INCREMENT, `tab_nome` VARCHAR(255), `tab_tab_3` VARCHAR(255), `tab_tab_4` VARCHAR(255), `tab_tab_5` VARCHAR(255), PRIMARY KEY (`tab_id`)) ENGINE = InnoDB;
+CREATE TABLE IF NOT EXISTS tabela3(`tab_id` INT NOT NULL AUTO_INCREMENT, `tab_nome` VARCHAR(255), `tab_tab_3` VARCHAR(255), `tab_tab_4` VARCHAR(255), `tab_tab_5` VARCHAR(255), PRIMARY KEY (`tab_id`)) ENGINE = InnoDB;
+CREATE TABLE IF NOT EXISTS tabela4(`tab_id` INT NOT NULL AUTO_INCREMENT, `tab_nome` VARCHAR(255), `tab_tab_3` VARCHAR(255), `tab_tab_4` VARCHAR(255), `tab_tab_5` VARCHAR(255), PRIMARY KEY (`tab_id`)) ENGINE = InnoDB;
